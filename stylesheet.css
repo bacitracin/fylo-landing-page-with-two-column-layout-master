@@ -76,6 +76,11 @@ body {
   color: white;
 }
 
+.footer__logo {
+  filter: brightness(0) invert(1);
+  width: 130px;
+}
+
 .footer__text {
   padding: 10px;
 }
@@ -99,6 +104,7 @@ body {
   flex-direction: row;
   padding-left: 80px;
   padding-right: 80px;
+  margin-bottom: 120px;
 };
 
 .hero__column {
@@ -168,8 +174,10 @@ body {
 /* Productivity */
 
 .productivity__curve {
-  background-image: url("images/bg-curve-desktop.svg") center/cover no-repeat;
-  height: 80px;
+  height: 100px;
+  margin-bottom: -10px;
+  width: 100%;
+
 }
 
 .productivity__text {
@@ -180,6 +188,7 @@ body {
   background-color: #F8F8FE;
   display: flex;
   flex-direction: row;
+  padding-bottom: 80px;
   padding-left: 80px;
   padding-right: 80px;
 };
