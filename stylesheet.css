@@ -3,6 +3,8 @@ body {
   margin: 0;
 }
 
+/* Call to action */
+
 .cta {
   background-color: hsl(238, 22%, 44%);
   display: flex;
@@ -53,6 +55,8 @@ body {
   width: 40%;
 }
 
+/* Footer */
+
 .footer {
   background-color: hsl(243, 87%, 12%);
   color: white;
@@ -68,9 +72,15 @@ body {
   padding-right: 50px;
 }
 
+.footer_icon {
+  color: white;
+}
+
 .footer__text {
   padding: 10px;
 }
+
+/* Header */
 
 .header__row {
   display: flex;
@@ -81,6 +91,8 @@ body {
   margin-right: 80px;
   margin-top: 65px;
 }
+
+/* Hero */
 
 .hero {
   display: flex;
@@ -133,15 +145,13 @@ body {
   font-size: 17px;
 }
 
-.illustration {
+.hero__illustration {
   height: 474px;
   margin: 20px;
   width: 640px;
 }
 
-.logo {
-  color: white;
-}
+/* Nav */
 
 .nav {
   display: flex;
@@ -154,6 +164,8 @@ body {
   padding-bottom: 15px;
   padding-top: 15px;
 }
+
+/* Productivity */
 
 .productivity__curve {
   background-image: url("images/bg-curve-desktop.svg") center/cover no-repeat;
