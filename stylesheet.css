@@ -18,8 +18,14 @@ body {
   width: 50%;
 }
 
+.cta__header {
+  font-family: Raleway;
+  font-size: 32;
+  font-weight: bold;
+}
+
 .cta__text {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: regular;
 }
@@ -34,12 +40,11 @@ body {
 .cta__input {
   border-radius: 3px;
   border-width: 1px;
-  font-size: 14px;
+  font-family: Raleway;
+  font-size: 12px;
   color:hsl(0, 0%, 75%);
   margin-right: 18px;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   width: 75%;
 }
 
@@ -48,10 +53,11 @@ body {
   border-color: hsl(224, 93%, 58%);
   border-radius: 3px;
   color: white;
+  font-family: Raleway;
   font-size: 14px;
+  font-weight: bold;
   margin-top: 20px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 10px 0px;
   width: 40%;
 }
 
@@ -68,8 +74,7 @@ body {
 .footer__column {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0px 50px;
 }
 
 .footer_icon {
@@ -91,10 +96,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 85px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 65px;
+  margin: 65px 80px 85px 80px;
 }
 
 /* Hero */
@@ -102,8 +104,7 @@ body {
 .hero {
   display: flex;
   flex-direction: row;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 0px 80px;
   margin-bottom: 120px;
 };
 
@@ -116,8 +117,7 @@ body {
 .hero__header {
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 77px;
+  margin: 77px 0px 20px 0px;
 }
 
 .hero__input__container {
@@ -130,6 +130,7 @@ body {
   border-color: black;
   border-radius: 3px;
   border-width: 1px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color:hsl(0, 0%, 75%);
   margin-right: 18px;
@@ -141,13 +142,15 @@ body {
   background-color: hsl(224, 93%, 58%);
   border-radius: 3px;
   color: white;
+  font-family: Raleway;
   font-size: 14px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  font-weight: bold;
+  padding: 10px 0px;
   width: 30%;
 }
 
 .hero__text {
+  font-family: 'Open Sans', sans-serif;
   font-size: 17px;
 }
 
@@ -165,10 +168,8 @@ body {
 }
 
 .nav__button {
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  margin: 0px 25px;
+  padding: 15px 0px;
 }
 
 /* Productivity */
@@ -181,16 +182,15 @@ body {
 }
 
 .productivity__text {
-  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 .productivity {
   background-color: #F8F8FE;
   display: flex;
   flex-direction: row;
-  padding-bottom: 80px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 0px 80px 80px 80px;
 };
 
 .productivity__column {
@@ -202,8 +202,7 @@ body {
 .productivity__header {
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 77px;
+  margin: 77px 0px 20px 0px;
 }
 
 .productivity__illustration {
