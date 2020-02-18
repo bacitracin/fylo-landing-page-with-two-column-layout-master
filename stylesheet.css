@@ -33,10 +33,10 @@ body {
     color:hsl(0, 0%, 75%);
     margin-right: 18px;
     padding: 10px;
-    width: 75%;
+    width: 80%;
   }
 
-  .cta__input__button {
+  .cta__button {
     background-color: hsl(224, 93%, 58%);
     border-color: hsl(224, 93%, 58%);
     border-radius: 3px;
@@ -47,7 +47,7 @@ body {
     width: 40%;
   }
 
-  .cta__input__container {
+  .cta__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,10 +136,25 @@ body {
     margin-bottom: 120px;
   };
 
+  .hero__button {
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 3px;
+    color: white;
+    font: bold 14px Raleway;
+    padding: 10px 0px;
+    width: 30%;
+  }
+
   .hero__column {
     display: flex;
     flex-direction: column;
     width: 50%;
+  }
+
+  .hero__container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
   }
 
   .hero__header {
@@ -157,21 +172,6 @@ body {
     margin-right: 18px;
     padding-left: 10px;
     width: 65%;
-  }
-
-  .hero__input__button {
-    background-color: hsl(224, 93%, 58%);
-    border-radius: 3px;
-    color: white;
-    font: bold 14px Raleway;
-    padding: 10px 0px;
-    width: 30%;
-  }
-
-  .hero__input__container {
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
   }
 
   .hero__text {
@@ -330,10 +330,10 @@ body {
     color:hsl(0, 0%, 75%);
     margin-right: 18px;
     padding: 10px;
-    width: 75%;
+    width: 80%;
   }
   
-  .cta__input__button {
+  .cta__button {
     background-color: hsl(224, 93%, 58%);
     border-color: hsl(224, 93%, 58%);
     border-radius: 3px;
@@ -341,10 +341,10 @@ body {
     font: bold 14px Raleway;
     margin-top: 20px;
     padding: 10px 0px;
-    width: 40%;
+    width: 80%;
   }
   
-  .cta__input__container {
+  .cta__container {
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -426,6 +426,12 @@ body {
     justify-content: space-between;
     margin: 24px;
   }
+
+  .header__row img {
+    height: 24px;
+    padding: 10px 0px;
+    width: 80px;
+  }
   
   /* Hero */
   .hero {
@@ -434,13 +440,28 @@ body {
     padding: 24px;
     margin-bottom: 10px;
   }
-  
+
+  .hero__button {
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 3px;
+    color: white;
+    font: bold 14px Raleway;
+    padding: 10px 0px;
+    width: 100%;
+  }
+
   .hero__column {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
   
+  .hero__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
   .hero__header {
     font-size: 24px;
     font-weight: bold;
@@ -453,24 +474,9 @@ body {
     border-width: 1px;
     color:hsl(0, 0%, 75%);
     font: 14px 'Open Sans', sans-serif;
-    margin-right: 18px;
-    padding-left: 10px;
-    width: 65%;
-  }
-  
-  .hero__input__button {
-    background-color: hsl(224, 93%, 58%);
-    border-radius: 3px;
-    color: white;
-    font: bold 14px Raleway;
-    padding: 10px 0px;
-    width: 30%;
-  }
-  
-  .hero__input__container {
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
   }
 
   .hero__text {
@@ -482,7 +488,6 @@ body {
   }
 
   .hero__illustration--mobile {
-    margin: 20px;
     width: 100%;
   }
   
@@ -535,7 +540,6 @@ body {
   }
 
   .productivity__illustration--mobile {
-    margin: 20px;
     width: 100%;
   }
   
