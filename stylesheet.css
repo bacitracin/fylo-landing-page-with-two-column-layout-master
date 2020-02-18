@@ -507,7 +507,7 @@ body {
   /* Productivity */
   
   .productivity__text {
-    font: 16px 'Open Sans', sans-serif;
+    font: 14px 'Open Sans', sans-serif;
   }
   
   .productivity {
@@ -531,7 +531,7 @@ body {
   }
   
   .productivity__header {
-    font: bold 40px;
+    font: bold 16px Raleway;
     margin: 0px 0px 20px 0px;
   }
   
@@ -549,9 +549,15 @@ body {
     justify-content: flex-start;
     padding: 0px 0px 20px 0px;
   }
+
+  .productivity__link img {
+    height: 12px;
+    width: 12px;
+  }
   
   .productivity__link__text {
     color: #3DA08F;
+    font-size: 12px;
     margin-right: 10px;
   }
   
