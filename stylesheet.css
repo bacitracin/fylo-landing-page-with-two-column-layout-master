@@ -47,7 +47,7 @@ body {
     width: 40%;
   }
 
-  .cta__container {
+  .cta__form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +75,7 @@ body {
     width: 25%;
   }
 
-  .footer__column__social {
+  .footer__social {
     align-content: flex-start;
     display: flex;
     flex-direction: row;
@@ -87,7 +87,7 @@ body {
     margin-right: 20px;
   }
 
-  .footer__icon__social {
+  .footer__fab {
     align-items: center;
     border: 1px white solid;
     border-radius: 50%;
@@ -270,7 +270,7 @@ body {
     width: 32px;
   }
 
-  .testimonial__user__container {
+  .testimonial__container {
     align-content: center;
     display: flex;
     flex-direction: row;
@@ -279,17 +279,17 @@ body {
     padding: 20px 0px 0px 0px;
   }
 
-  .testimonial__user__info {
+  .testimonial__info {
     display: flex;
     flex-direction: column;
     padding: 0px 10px;
   }
 
-  .testimonial__user__name {
+  .testimonial__name {
     font: bold 11px;
   }
 
-  .testimonial__user__role {
+  .testimonial__role {
     font-size: 8px;
   }
 
@@ -344,7 +344,7 @@ body {
     width: 80%;
   }
   
-  .cta__container {
+  .cta__form {
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -374,7 +374,7 @@ body {
     width: 100%;
   }
   
-  .footer__column__social {
+  .footer__social {
     align-content: center;
     display: flex;
     flex-direction: row;
@@ -388,7 +388,7 @@ body {
     margin-right: 10px;
   }
   
-  .footer__icon__social {
+  .footer__fab {
     align-items: center;
     border: 1px white solid;
     border-radius: 50%;
@@ -578,7 +578,7 @@ body {
     width: 24px;
   }
   
-  .testimonial__user__container {
+  .testimonial__container {
     align-content: center;
     display: flex;
     flex-direction: row;
@@ -587,17 +587,17 @@ body {
     padding: 20px 0px 0px 0px;
   }
   
-  .testimonial__user__info {
+  .testimonial__info {
     display: flex;
     flex-direction: column;
     padding: 0px 10px;
   }
   
-  .testimonial__user__name {
+  .testimonial__name {
     font: bold 9px;
   }
   
-  .testimonial__user__role {
+  .testimonial__role {
     font-size: 6px;
   }
   
