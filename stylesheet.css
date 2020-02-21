@@ -43,7 +43,7 @@ body {
     color: white;
     font: bold 14px Raleway;
     margin-top: 20px;
-    padding: 10px 0px;
+    padding: 10px;
     width: 40%;
   }
 
@@ -134,14 +134,15 @@ body {
     flex-direction: row;
     padding: 0px 80px;
     margin-bottom: 120px;
-  };
+  }
 
   .hero__button {
     background-color: hsl(224, 93%, 58%);
+    border-color:  hsl(224, 93%, 58%);
     border-radius: 3px;
     color: white;
     font: bold 14px Raleway;
-    padding: 10px 0px;
+    padding: 10px;
     width: 30%;
   }
 
@@ -164,13 +165,14 @@ body {
   }
 
   .hero__input {
-    border-color: black;
+    border-color: #07043B;
+    border-width: 1px;
     border-radius: 3px;
     border-width: 1px;
     color:hsl(0, 0%, 75%);
     font: 14px 'Open Sans', sans-serif;
     margin-right: 18px;
-    padding-left: 10px;
+    padding: 10px;
     width: 65%;
   }
 
@@ -226,8 +228,13 @@ body {
 
   }
 
+  .productivity__curve--mobile {
+    display: none;
+  }
+
   .productivity__header {
-    font: bold 40px;
+    font-size: 40px;
+    font-weight: bold;
     margin: 0px 0px 20px 0px;
   }
 
@@ -308,6 +315,8 @@ body {
     background-color: hsl(238, 22%, 44%);
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding: 30px 50px 80px;
   }
   
   .cta__container {
@@ -326,11 +335,11 @@ body {
   .cta__input {
     border-radius: 3px;
     border-width: 1px;
+    box-sizing: border-box;
     font: 12px Raleway;
     color:hsl(0, 0%, 75%);
-    margin-right: 18px;
     padding: 10px;
-    width: 80%;
+    width: 100%;
   }
   
   .cta__button {
@@ -340,12 +349,12 @@ body {
     color: white;
     font: bold 14px Raleway;
     margin-top: 20px;
-    padding: 10px 0px;
-    width: 80%;
+    padding: 10px;
+    width: 100%;
   }
   
   .cta__form {
-    align-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,7 +372,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 0px 24px 24px 24px;
+    padding: 0px 30px 24px 30px;
   }
   
   .footer__column {
@@ -402,11 +411,11 @@ body {
   .footer__logo {
     filter: brightness(0) invert(1);
     margin: 10px 0px;
-    width: 130px;
+    width: 200px;
   }
   
   .footer__logo__container {
-    padding: 80px 0px 20px 20px;
+    padding: 60px 0px 20px 30px;
   }
   
   .footer__text {
@@ -438,11 +447,13 @@ body {
     display: flex;
     flex-direction: row;
     padding: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    text-align: center;
   }
 
   .hero__button {
     background-color: hsl(224, 93%, 58%);
+    border-color: hsl(224, 93%, 58%);
     border-radius: 3px;
     color: white;
     font: bold 14px Raleway;
@@ -459,28 +470,27 @@ body {
   .hero__container {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .hero__header {
     font-size: 24px;
     font-weight: bold;
-    margin: 0px 0px 20px 0px;
+    margin: 25px 0px 25px 0px;
   }
   
   .hero__input {
-    border-color: black;
+    border-color:#07043B;
     border-radius: 3px;
     border-width: 1px;
     color:hsl(0, 0%, 75%);
     font: 14px 'Open Sans', sans-serif;
     padding: 10px;
-    margin-bottom: 10px;
-    width: 100%;
+    margin-bottom: 15px;
   }
 
   .hero__text {
-    font: 12px 'Open Sans', sans-serif;
+    font: 14px 'Open Sans', sans-serif;
   }
   
   .hero__illustration--desktop {
@@ -515,6 +525,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 0px 24px 24px 24px;
+    text-align: center;
   };
   
   .productivity__column {
@@ -524,15 +535,18 @@ body {
   }
   
   .productivity__curve {
+    display: none;
+  }
+
+  .productivity__curve--mobile {
     height: 100px;
     margin-bottom: -10px;
     width: 100%;
-  
   }
   
   .productivity__header {
     font: bold 16px Raleway;
-    margin: 0px 0px 20px 0px;
+    margin: 75px 0px 20px 0px;
   }
   
   .productivity__illustration--desktop {
@@ -546,7 +560,7 @@ body {
   .productivity__link {
     align-self: center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 0px 0px 20px 0px;
   }
 
@@ -561,6 +575,10 @@ body {
     margin-right: 10px;
   }
   
+  .productivity__text {
+    font: 14px Raleway;
+    color: #615F7E;
+  }
   /* Testimonial */
   
   .testimonial {
@@ -568,8 +586,9 @@ body {
     border-radius: 3px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
     font: 10px 'Open Sans', sans-serif;
+    margin: 0px 25px;
     padding: 20px;
-    width: 90%;
+    text-align: left;
   }
   
   .testimonial__avatar {
