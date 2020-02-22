@@ -17,7 +17,7 @@
 </head>
 <body class='body'>
   <div class="header__row">
-    <img src="images/logo.svg" />
+    <img alt="logo" src="images/logo.svg" />
     <div class="nav">
       <text class="nav__button">Features</text>
       <text class="nav__button">Team</text>
@@ -39,7 +39,7 @@
         family, and co-workers.
       </text>
       <div class="hero__container">
-        <input class="hero__input" type="text" name="email" value="Enter your email...">
+        <input class="hero__input" aria-label="Enter your email"  type="text" name="email" value="Enter your email...">
         <button class="hero__button">Get Started</button>
       </div>
     </div> 
@@ -50,10 +50,12 @@
     />
   </div>
   <img
+    alt="curve image"
     src="images/bg-curve-desktop.svg"
     class="productivity__curve"
   />
   <img
+  alt="curve image"
   src="images/bg-curve-mobile.svg"
   class="productivity__curve--mobile"
 />
@@ -77,10 +79,11 @@
       <br></br>
       <div class="productivity__link">
         <a class="productivity__link__text" href="#">See how Fylo works</a>
-        <img src="images/icon-arrow.svg"/>
+        <img alt="arrow icon" src="images/icon-arrow.svg"/>
       </div>
       <div class="testimonial">
         <img
+          alt="quote icon"
           src="images/icon-quotes.svg"
           class="testimonial__quote"
         />
@@ -91,8 +94,9 @@
         </text>
         <div class="testimonial__container">
           <img
-           src="images/avatar-testimonial.jpg"
-           class="testimonial__avatar"
+            alt="testimonial user avatar" 
+            src="images/avatar-testimonial.jpg"
+            class="testimonial__avatar"
           />
           <div class="testimonial__info">
             <text class="testimonial__name">Kyle Burton</text>
@@ -116,13 +120,14 @@
       </text>
     </div>
     <div class="cta__form">
-      <input class="cta__input" type="text" name="email" value="email@example.com">
+      <input class="cta__input" aria-label="email example"  type="text" name="email" value="email@example.com">
       <button class="cta__button">Get Started For Free</button>
     </div>
   </div>
   <div>
     <div class="footer footer__logo__container">
       <img 
+        alt="Fylo footer logo"
         src="images/logo.svg"
         class="footer__logo"
       />
@@ -130,11 +135,11 @@
     <div class="footer">
       <div class="footer__column">
         <text class="footer__text">
-          <img class="footer__icon" src="images/icon-phone.svg"/>
+          <img alt="phone icon" class="footer__icon" src="images/icon-phone.svg"/>
           Phone: +1-543-123-4567
         </text>
         <text class="footer__text">
-          <img class="footer__icon" src="images/icon-email.svg"/>
+          <img alt="email icon" class="footer__icon" src="images/icon-email.svg"/>
           example@fylo.com
         </text>
       </div>
